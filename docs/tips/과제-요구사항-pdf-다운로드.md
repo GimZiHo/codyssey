@@ -8,13 +8,13 @@
 
 코디세이 플랫폼에서 저장할 과제의 상세 화면을 열고 **새 창에서 열기** 버튼을 누릅니다.
 
-![과제 상세 화면의 새 창에서 열기 버튼](../images/screenshots/assignment-pdf/image1.png)
+![과제 상세 화면의 새 창에서 열기 버튼](../images/screenshots/assignment-pdf/01-open-in-new-window.png)
 
 ## 2. 우클릭 메뉴에서 인쇄 선택하기
 
 과제 내용이 별도 창으로 열리면 페이지 안에서 마우스 오른쪽 버튼을 누르고 **인쇄**를 선택합니다.
 
-![새 창에서 마우스 우클릭으로 연 메뉴의 인쇄 항목](../images/screenshots/assignment-pdf/image2.png)
+![새 창에서 마우스 우클릭으로 연 메뉴의 인쇄 항목](../images/screenshots/assignment-pdf/02-print-menu.png)
 
 ## 3. PDF로 저장하기
 
@@ -22,6 +22,6 @@
 
 오른쪽 아래 **저장** 버튼을 누른 뒤 파일 이름과 저장 위치를 지정하면 PDF 파일로 저장됩니다.
 
-![인쇄 창에서 PDF로 저장과 전체 페이지를 선택한 화면](../images/screenshots/assignment-pdf/image3.png)
+![인쇄 창에서 PDF로 저장과 전체 페이지를 선택한 화면](../images/screenshots/assignment-pdf/03-save-as-pdf.png)
 
 [README로 돌아가기](../../README.md)
