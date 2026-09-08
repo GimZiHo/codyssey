@@ -15,6 +15,12 @@
 
 - [과제 요구사항 PDF 다운로드](docs/tips/과제-요구사항-pdf-다운로드.md): 과제 화면을 새 창에서 열고 인쇄 기능으로 PDF를 저장하는 방법
 
+## AI 활용 방식
+
+프로젝트를 진행하면서 AI의 작업 범위와 설명 방식을 어떻게 정하고 관리하는지 소개합니다.
+
+- [지침으로 AI 작업 방식 조정하기](docs/ai-workflow/agent-guidelines.md): 공통 작업 원칙을 전역 지침으로 관리하고, 프로젝트별 지침으로 목적에 맞게 조정하는 방식
+
 ## 본과정 오리엔테이션 자료
 
 코디세이 AI 올인원 제2기 본과정을 이해하는 데 참고할 수 있는 오리엔테이션 자료입니다. 아래 링크에서 PDF를 확인할 수 있습니다.
@@ -27,6 +33,7 @@
 ## 디렉터리 안내
 
 - [docs/tips/](docs/tips/): 팁별 설명과 사용 방법을 정리하는 문서
+- [docs/ai-workflow/](docs/ai-workflow/): 프로젝트 수행에 AI를 활용하는 방식과 지침 관리
 - [docs/references/](docs/references/): 오리엔테이션 등 참고 자료 원본
 - [docs/images/screenshots/](docs/images/screenshots/): 팁 문서에 사용하는 캡처 이미지
 
