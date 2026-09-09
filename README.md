@@ -19,7 +19,8 @@
 
 프로젝트를 진행하면서 AI의 작업 범위와 설명 방식을 어떻게 정하고 관리하는지 소개합니다.
 
-- [지침으로 AI 작업 방식 조정하기](docs/ai-workflow/agent-guidelines.md): 전역·프로젝트 지침으로 작업 방식을 조정하고, 공통 도구를 재사용해 불필요한 반복 설치를 줄이도록 한 기준
+- [지침으로 AI 작업 방식 조정하기](docs/ai-workflow/agent-guidelines.md): 전역·프로젝트 지침으로 작업 범위와 설명 방식을 조정하는 방법
+- [공통 도구 재사용으로 반복 설치 줄이기](docs/ai-workflow/shared-tool-environment.md): 기존 설치를 확인하고 공통 도구 환경을 재사용하도록 한 기준
 
 ## 본과정 오리엔테이션 자료
 
