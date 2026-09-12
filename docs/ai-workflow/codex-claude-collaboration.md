@@ -1,6 +1,6 @@
 # Codex와 Claude의 역할을 나누어 협업 준비하기
 
-프로젝트를 작은 학습 단계로 진행하는 방식을 유지하면서, Codex와 Claude Code가 서로 다른 역할을 맡도록 준비하고 있습니다. 2026년 9월 12일 기준으로 역할별 전역 지침을 작성하고 로컬 환경에 연결했으며, 공통 도구 재사용을 확인하는 단계까지 완료했습니다.
+프로젝트를 작은 학습 단계로 진행하는 방식을 유지하면서, Codex와 Claude Code가 서로 다른 역할을 맡도록 준비하고 있습니다. 2026년 9월 12일 기준으로 역할별 전역 지침 연결, 공통 도구 재사용 확인, Claude Code 기본 권한 설정 적용까지 진행했습니다.
 
 ## 역할 나누기
 
@@ -49,6 +49,25 @@ Claude의 전역 지침에도 기존 도구와 환경을 먼저 확인하고 재
 2026년 9월 12일, 전역 지침 쪽 작업에서 공통 도구 재사용 확인 단계가 완료되었다는 결과를 전달받았습니다. 협업 준비 과정에서 두 도구가 같은 작업 환경을 활용하도록 한 기준을 확인한 단계로 기록합니다.
 
 반복 설치를 줄이기 위한 환경 구성과 관리 원칙은 [공통 도구 재사용으로 반복 설치 줄이기](shared-tool-environment.md)에 정리했습니다.
+
+## Claude Code 기본 권한 설정 적용
+
+역할을 설명하는 지침에 더해, 반복적인 상태 확인은 허용하고 Git 변경 작업은 승인을 요청하도록 기본 권한을 설정했습니다.
+
+| 구분 | 설정한 명령 | 목적 |
+| --- | --- | --- |
+| 허용 목록 | `git status`, `git status --short`, `git status --short --branch` | 작업 상태 확인 |
+| 허용 목록 | `git diff --stat`, `git diff --check` | 변경 규모와 공백 오류 확인 |
+| 허용 목록 | 공통 환경 Python의 `--version`, `-m pip show pypdf`, `-m pip check` | 기존 도구와 의존성 확인 |
+| 승인 요청 목록 | `git add *`, `git commit *`, `git push *` | Git 변경 작업 전 확인 |
+
+공통 Python 명령은 해당 환경 실행 파일의 전체 경로로 지정했습니다. Python 실행 전체나 패키지 설치, 파일 편집, 모든 테스트 명령을 일괄 허용하는 규칙은 추가하지 않았습니다.
+
+권한 원본은 전역 지침 저장소의 [config/claude-permissions.json](https://github.com/GimZiHo/codex-guidelines/blob/main/config/claude-permissions.json)에서 관리하고, 실제 사용자 설정인 `~/.claude/settings.json`의 `permissions`에 반영했습니다. 이번 기록에서는 실제 설정의 `permissions`와 원본 템플릿이 일치하는 것을 확인했습니다. 관련 커밋은 `eb9643a`입니다.
+
+이 확인은 설정 파일 반영 여부에 대한 것입니다. 명령 규칙은 호출 형태에 따라 적용되므로, 예를 들어 `git push *`만으로 `git -C <경로> push` 등 모든 형태의 Git 작업을 통제한다고 보지는 않습니다. 역할 지침과 권한 설정을 함께 사용하며, 설정에 열거하지 않은 호출까지 모두 차단한 것은 아닙니다.
+
+적용 범위와 새 세션에서의 확인 절차는 [Claude Code 권한 설정 관리 문서](https://github.com/GimZiHo/codex-guidelines/blob/main/docs/claude-permissions.md)에 정리했습니다.
 
 ## 현재 준비된 범위
 
