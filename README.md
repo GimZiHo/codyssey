@@ -21,6 +21,7 @@
 
 - [지침으로 AI 작업 방식 조정하기](docs/ai-workflow/agent-guidelines.md): 전역·프로젝트 지침으로 작업 범위와 설명 방식을 조정하는 방법
 - [공통 도구 재사용으로 반복 설치 줄이기](docs/ai-workflow/shared-tool-environment.md): 기존 설치를 확인하고 공통 도구 환경을 재사용하도록 한 기준
+- [Codex와 Claude의 역할을 나누어 협업 준비하기](docs/ai-workflow/codex-claude-collaboration.md): 구현과 검토·학습 관리의 역할을 나누고 각 도구의 전역 지침을 연결한 기록
 
 ## 본과정 오리엔테이션 자료
 
