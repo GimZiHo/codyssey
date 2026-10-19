@@ -13,9 +13,15 @@
 
 ## 단계별 과제 요구사항
 
-교육 과정은 **1단계 AI, SW 도구 → 2단계 AI, SW 심화 → 3단계 산업 및 기술 분야 별 AI, SW 응용학습 Final-Project**로 구성됩니다.
+교육 과정은 다음 세 단계로 구성됩니다. 과제 요구사항을 통해 각 단계에서 어떤 과제를 수행하는지 확인할 수 있습니다.
 
-[과제 요구사항 목록](docs/references/과제%20요구사항/README.md)에서 현재 첨부된 1단계 PDF 13개를 확인할 수 있습니다.
+| 단계 | 학습 내용 | 첨부 자료 |
+| --- | --- | --- |
+| 1단계 | AI, SW 도구 | [과제 요구사항 PDF 13개](docs/references/과제%20요구사항/README.md) |
+| 2단계 | AI, SW 심화 | 아직 첨부하지 않음 |
+| 3단계 | 산업 및 기술 분야 별 AI, SW 응용학습 Final-Project | 아직 첨부하지 않음 |
+
+현재는 1단계 자료를 제공하며, 원본 파일명으로 정리한 목록에서 개별 PDF를 열 수 있습니다.
 
 ## 생활·학습 팁
 
@@ -42,7 +48,7 @@
 
 - [docs/tips/](docs/tips/): 팁별 설명과 사용 방법을 정리하는 문서
 - [docs/ai-workflow/](docs/ai-workflow/): 프로젝트 수행에 AI를 활용하는 방식과 지침 관리
-- [docs/references/](docs/references/): 오리엔테이션 등 참고 자료 원본
+- [docs/references/](docs/references/): 단계별 과제 요구사항과 오리엔테이션 자료 원본
 - [docs/images/screenshots/](docs/images/screenshots/): 팁 문서에 사용하는 캡처 이미지
 
 팁은 별도 문서에 단계별 설명과 캡처를 모으고, README에서 링크로 안내합니다. 캡처는 주제별 하위 폴더에 저장합니다. 과제 요구사항 PDF 다운로드 캡처는 [assignment-pdf/](docs/images/screenshots/assignment-pdf/)에 저장하면 됩니다.
