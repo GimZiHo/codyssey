@@ -15,7 +15,7 @@
 
 교육 과정은 **1단계 AI, SW 도구 → 2단계 AI, SW 심화 → 3단계 산업 및 기술 분야 별 AI, SW 응용학습 Final-Project**로 구성됩니다.
 
-[과제 요구사항 목록](docs/references/과제%20요구사항/README.md)에서 현재 첨부된 1단계 PDF 11개를 확인할 수 있습니다.
+[과제 요구사항 목록](docs/references/과제%20요구사항/README.md)에서 현재 첨부된 1단계 PDF 13개를 확인할 수 있습니다.
 
 ## 생활·학습 팁
 

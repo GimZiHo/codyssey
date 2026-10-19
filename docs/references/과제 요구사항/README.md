@@ -10,8 +10,10 @@
 
 ## 1단계: AI, SW 도구
 
-현재 첨부된 과제 요구사항 PDF 11개입니다. 원본 파일명을 유지했습니다.
+현재 첨부된 과제 요구사항 PDF 13개입니다. 원본 파일명을 유지했습니다.
 
+- [Requirement_B1-1.pdf](1%EB%8B%A8%EA%B3%84%20-%20AI%2C%20SW%20%EB%8F%84%EA%B5%AC/Requirement_B1-1.pdf)
+- [Requirement_B1-2.pdf](1%EB%8B%A8%EA%B3%84%20-%20AI%2C%20SW%20%EB%8F%84%EA%B5%AC/Requirement_B1-2.pdf)
 - [Requirement_B2-1.pdf](1%EB%8B%A8%EA%B3%84%20-%20AI%2C%20SW%20%EB%8F%84%EA%B5%AC/Requirement_B2-1.pdf)
 - [Requirement_B2-2.pdf](1%EB%8B%A8%EA%B3%84%20-%20AI%2C%20SW%20%EB%8F%84%EA%B5%AC/Requirement_B2-2.pdf)
 - [Requirement_B3-1.pdf](1%EB%8B%A8%EA%B3%84%20-%20AI%2C%20SW%20%EB%8F%84%EA%B5%AC/Requirement_B3-1.pdf)
